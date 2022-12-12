@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+    background: rgb(83, 83, 79);
+    
+}
+header{
+    height: 100px;
+    margin: 0 auto; /*centers */
+    background-color: #5e4935;
+    color: #05060c;
+    line-height: 100px; /*align text verticaly in container*/
+    
+}
+aside{ 
+    
+    
+}
+nav{
+    height: 30px;
+    margin: 0 auto;
+    background-color: #473727;
+    padding-top: 10px;
+    border-style: solid;
+    /*border-top: #05060c;*/
+    border-left: #05060c;
+    border-right: #05060c;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+   
+}
+nav li{
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+    font: bold;
+    font-size: 18px;
+}
+nav li a{
+    color: #198882;
+    text-decoration: none;
+    
+}
+.link{
+    color: #198882;
+    text-decoration: none;
+
+}
+.link:hover{
+     color: #dadd3aa8;
+    text-decoration: underline chocolate;
+}   
+nav li a:hover{
+    color: #dadd3aa8;
+    text-decoration: underline chocolate;
+}
+footer{
+height: 60px;
+margin: 0 auto;
+background-color: #5e4935;
+text-align: center;
+line-height: 60px;
+border-style: solid;
+/*border-top: #05060c;*/
+border-left: #05060c;
+border-right: #05060c;
+
+}
+main{
+    padding-right: 25Px;
+}
+#wrapper {
+    
+    width: 90%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+}
+.spacing{
+    padding-top: 15px;
+    justify-content: left;
+}
+.spacing > h2{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    background-image:radial-gradient(#ccc, #695d44);
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+.flex-container > main aside {
+    margin: 10px;
+    flex-direction: row-reverse;
+    border:3px solid #05060c;
+    
+    
+   
+}
+aside{
+    
+     width: 25%;
+    background-image: linear-gradient(#98896a,#fff );
+    padding: 5px 5px;
+}
+.flex-container .flex-text{
+    width: 100%;
+}
+.bullet{
+    padding-left: 25px;
+    list-style: circle;
+}
+p{
+    padding-top: 10px;
+}
+.super{
+    font-size: 12px;
+}
+.fraction{
+    font-size: 75%;
+    display: inline;
+}
+.mixed-Fract-First{
+    
+    display: inline;
+}
